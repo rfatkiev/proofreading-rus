@@ -1,5 +1,13 @@
 # Python for Proofreading
 
+[ENG](#python-for-proofreading) | [RUS](#python-для-литературной-вычитки)
+
+English:
+[Functions](#what-the-script-does) | [Algorithm](#how-the-algorithm-works) | [Usage](#usage) | [Notes](#notes)
+
+Русский:
+[Функции](#что-делает-скрипт) | [Алгоритм](#как-работает-алгоритм) | [Использование](#использование) | [Примечания](#примечания)
+
 This project contains a Word-based proofreading helper for Russian editorial work. The main script opens a `.docx` file in Microsoft Word through `pywin32`, enables Track Changes, applies a set of technical fixes, and saves the result as a new reviewed document.
 
 The current main script is `review_word.py`. It is intended for repetitive, mechanical cleanup before deeper editing.
